@@ -1,0 +1,12 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		double x = 12.4456;
+		System.out.printf("%.3f%n", x);
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int y = 32;
+		System.out.println(y);
+		double x = 10.323;
+		System.out.println(x);
+	}
+
+}

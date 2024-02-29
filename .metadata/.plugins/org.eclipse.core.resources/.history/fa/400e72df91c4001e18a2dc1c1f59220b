@@ -1,0 +1,15 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		String nome = "Maria";
+		int idade = 32;
+		double salario = 4000.00;
+		System.out.println("O(A) " + nome + " tem " + idade + " anos, e recebe R$" + salario + ".");
+		System.out.printf("O(A) %s tem %d anos e recebe R$%.1f.", nome, idade, salario);
+	}
+
+}

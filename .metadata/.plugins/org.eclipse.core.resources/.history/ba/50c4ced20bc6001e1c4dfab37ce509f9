@@ -1,0 +1,38 @@
+import java.util.Scanner;
+//import java.util.Locale;
+public class ex_secao4 {
+
+	public static void main(String[] args) {
+		//EXERCICIO 1
+//		Scanner sc = new Scanner(System.in);
+//		int valor1 = sc.nextInt();
+//		int valor2 = sc.nextInt();
+//		int total = valor1 + valor2;
+//		System.out.println("SOMA = " + total);
+//		sc.close();
+		
+		//EXERCICIO 2
+		//area = pi .raio elevado a 2
+//		Locale.setDefault(Locale.US);
+//		double area, raio, pi = 3.14159;
+//		Scanner sc = new Scanner(System.in);
+//		raio = sc.nextDouble();
+//		area = pi * (Math.pow(raio, 2));
+//		System.out.printf("A=%.4f", area);
+//		sc.close();
+		
+		int A, B, C, D, dif;
+		Scanner sc = new Scanner(System.in);
+		A = sc.nextInt();
+		B = sc.nextInt();
+		C = sc.nextInt();
+		D = sc.nextInt();
+		
+		dif = (A * B - C * D);
+		
+		System.out.println("DIFERENCA = " + dif);
+		
+		sc.close();
+	}
+
+}

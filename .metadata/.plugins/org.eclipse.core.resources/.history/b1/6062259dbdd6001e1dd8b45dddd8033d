@@ -1,0 +1,21 @@
+package calculo;
+
+public class soma {
+	public String nome;
+	public double pricing;
+	public int quantidade;
+
+	public double registro(){
+		System.out.println();
+		double res = quantidade * pricing;
+		return res;
+	}
+	public double adcestoque(double x) {
+		double res = (quantidade + x) * pricing;
+		return res;
+	}
+	public double remestoque(double x) {
+		double res = (quantidade - x) * pricing;
+		return res;
+	}
+}
