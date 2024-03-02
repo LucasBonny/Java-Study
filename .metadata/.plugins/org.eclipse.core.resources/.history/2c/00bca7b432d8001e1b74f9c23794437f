@@ -1,0 +1,19 @@
+package Aluno;
+
+public class aluno {
+	public String Name;
+	public double nota1;
+	public double nota2;
+	public double nota3;
+
+	public String toString() {
+		double res = nota1 + nota2 + nota3;
+		if(res > 60) {
+			return "FINAL GRADE = " + res +"\nPASS";
+		}
+		else {
+			double No = res - 60;
+			return "FINAL GRADE = " + res +"0\nFAILED\nMISSING " + Math.abs(No) + "0 POINTS";
+		}
+	}
+}

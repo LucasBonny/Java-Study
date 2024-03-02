@@ -1,0 +1,8 @@
+package Employee;
+
+public class employee {
+	public String Name;
+	public double GrossSalary;
+	public double Tax;
+	
+}
