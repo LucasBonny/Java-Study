@@ -5,6 +5,12 @@ public class soma {
 	public double pricing;
 	public int quantidade;
 
+	public soma (String nome, double pricing, int quantidade) {
+		this.nome = nome;
+		this.pricing = pricing;
+		this.quantidade = quantidade;
+	}
+	
 	public double registro(){
 		double res = quantidade * pricing;
 		return res;
