@@ -1,0 +1,11 @@
+nome,email,dataNasc,telefone
+Henrique da Costa,maria-sophia06@bol.com.br,12/05/1960,61 4755-3909
+Cecília da Cunha,bbarros@uol.com.br,27/08/1972,71 7163-2668
+Pietro da Mota,ana-juliafreitas@souza.com,16/06/1977,+55 (084) 2086-3261
+Emanuel Mendes,aragaosophie@hotmail.com,02/11/1954,81 6277-6741
+Lorena Azevedo,fsilva@ribeiro.com,02/04/1998,+55 31 5432-3760
+Ana Luiza da Rocha,isabellafernandes@porto.br,27/09/1990,+55 (071) 3551-4194
+Amanda Caldeira,silveiradiego@yahoo.com.br,07/11/2005,+55 (021) 0117-2864
+Bernardo Rezende,rochaclarice@yahoo.com.br,02/01/2001,0900 164 3479
+Brenda da Costa,davi-lucca29@moraes.br,09/12/1967,+55 84 2668-6824
+Emilly Aragão,kmartins@gmail.com,24/03/1998,+55 84 6946-7311
