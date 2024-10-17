@@ -1,0 +1,36 @@
+package application;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import entities.Employee;
+
+public class Program {
+
+	public static void main(String[] args) {
+		//input
+		List<Employee> emp = new ArrayList<>();
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		String path = "C:\\temp\\in.txt";
+		try(BufferedReader br = new BufferedReader(new FileReader(path))){
+			String line = br.readLine();
+			while(line != null) {
+				String[] fields = line.split(",");
+				String name = fields[0];
+				String data_nasc = fields[1];
+				line = br.readLine();
+			}
+		}
+		catch(IOException e) {
+			System.out.println("Error: " + e.getMessage());
+			
+		}
+
+	}
+
+}

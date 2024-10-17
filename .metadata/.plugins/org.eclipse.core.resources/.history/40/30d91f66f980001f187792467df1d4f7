@@ -1,0 +1,15 @@
+package model;
+
+public class Retangle extends Shape{
+
+	public Retangle(Color color) {
+		super(color);
+	}
+
+	@Override
+	public Double area() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

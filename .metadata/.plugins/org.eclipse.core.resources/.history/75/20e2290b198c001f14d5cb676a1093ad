@@ -1,0 +1,18 @@
+package entities;
+
+import java.util.Date;
+
+import entities.enums.Worker;
+
+public class Employee {
+	private String name;
+	private Date data_nasc;
+	
+	private Worker worker;
+	
+	public Employee(String name, Date data_nasc) {
+		this.name = name;
+		this.data_nasc = data_nasc;
+	}
+
+}

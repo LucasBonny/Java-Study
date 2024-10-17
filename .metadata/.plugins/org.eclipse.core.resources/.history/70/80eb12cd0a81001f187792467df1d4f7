@@ -1,0 +1,11 @@
+public class Program {
+
+	
+	public static void main(String[] args) {
+		
+		double i = Math.random(100.0D);
+		
+		System.out.println(String.format("%.2f", i));
+		
+	}
+}

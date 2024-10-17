@@ -1,0 +1,12 @@
+package application;
+
+import java.util.List;
+
+public class CalculationService {
+	
+	public static <T> T max(List<T> lista, T value) {
+		
+		return value;
+	}
+
+}

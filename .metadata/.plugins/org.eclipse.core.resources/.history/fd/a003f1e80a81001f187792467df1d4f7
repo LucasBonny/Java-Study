@@ -1,0 +1,11 @@
+public class Program {
+
+	
+	public static void main(String[] args) {
+		
+		double i = Math.ceil(2.5);
+		
+		System.out.println(i);
+		
+	}
+}

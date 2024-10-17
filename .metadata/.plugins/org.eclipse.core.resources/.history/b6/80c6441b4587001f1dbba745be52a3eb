@@ -1,0 +1,19 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import shapes.Shape;
+
+public class Program {
+
+	public static void main(String[] args) {
+		List<Shape> list = new ArrayList<>();
+
+	}
+	public static double max() {
+		double max = 0;
+		return 0;
+	}
+
+}

@@ -1,0 +1,13 @@
+import java.util.Random;
+
+public class Program {
+
+	
+	public static void main(String[] args) {
+		
+		double i = Math.random();
+		
+		System.out.println(String.format("%.2f", i));
+		
+	}
+}

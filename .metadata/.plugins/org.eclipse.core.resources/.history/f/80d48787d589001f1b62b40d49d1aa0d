@@ -1,0 +1,16 @@
+package application;
+
+import java.time.LocalDateTime;
+
+public class Program {
+
+	public static void main(String[] args) {
+		//Gerar nome do relatorio
+		String time = LocalDateTime.now();
+		String path = "C:\\temp\\" + time + ".txt";
+		
+		System.out.println(path);
+
+	}
+
+}

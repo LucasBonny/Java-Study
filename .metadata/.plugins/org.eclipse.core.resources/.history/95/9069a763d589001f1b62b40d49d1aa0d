@@ -1,0 +1,13 @@
+package application;
+
+public class Program {
+
+	public static void main(String[] args) {
+		//Gerar nome do relatorio
+		String path = "C:\\temp\\" + ".txt";
+		
+		System.out.println(path);
+
+	}
+
+}

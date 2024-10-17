@@ -1,0 +1,21 @@
+package model;
+
+public class Retangle extends Shape{
+	private Double width;
+	private Double height;
+	
+	public Retangle(Color color, Double width, Double height) {
+		super(color);
+		this.width = width;
+		this.height = height;
+	}
+
+
+
+	@Override
+	public Double area() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

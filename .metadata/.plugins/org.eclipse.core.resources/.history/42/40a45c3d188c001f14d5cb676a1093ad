@@ -1,0 +1,13 @@
+package entities;
+
+import java.util.Date;
+
+public class Employee {
+	private String name;
+	private Date data_nasc;
+	
+	public Employee() {
+		this.name = name;
+	}
+
+}

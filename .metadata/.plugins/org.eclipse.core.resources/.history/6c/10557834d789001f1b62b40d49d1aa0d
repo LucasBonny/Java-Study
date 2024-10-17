@@ -1,0 +1,26 @@
+package application;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class Program {
+
+	public static void main(String[] args) {
+		//Busca informação em um diretório especifico
+		
+		
+		//Gerar nome do relatorio
+		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd-MM-yyyy_HH-mm");
+		LocalDateTime time = LocalDateTime.now();
+		String relatorioOutput = "C:\\temp\\relatorio_" + fmt.format(time) + ".xlsx";
+		System.out.println(relatorioOutput);
+		//criar arquivo
+		try(BufferedWriter bw = new BufferedWriter(new FileWriter(relatorioOutput))){
+			
+		}
+
+	}
+
+}

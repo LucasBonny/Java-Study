@@ -1,0 +1,13 @@
+import java.util.Random;
+
+public class Program {
+
+	
+	public static void main(String[] args) {
+		
+		double i = new Random().nextDouble(100);
+		
+		System.out.println(i);
+		
+	}
+}

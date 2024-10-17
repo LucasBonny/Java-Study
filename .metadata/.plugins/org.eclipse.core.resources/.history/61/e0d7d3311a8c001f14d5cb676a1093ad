@@ -1,0 +1,25 @@
+package application;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
+
+import entities.Employee;
+
+public class Program {
+
+	public static void main(String[] args) {
+		//input
+		List<Employee> emp = new ArrayList<>();
+		String path = "C:\\temp\\in.txt";
+		try(BufferedReader br = new BufferedReader(new FileReader(path))){
+			
+		}
+		catch() {
+			
+		}
+
+	}
+
+}

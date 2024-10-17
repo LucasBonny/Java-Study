@@ -1,0 +1,10 @@
+package model;
+
+public class Retangle extends Shape{
+
+	public Retangle(Color color) {
+		super(color);
+		// TODO Auto-generated constructor stub
+	}
+
+}
