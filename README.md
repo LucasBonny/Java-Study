@@ -32,6 +32,12 @@ Deixo aqui uma abordagem sobre os assuntos na qual aprendi com o passar do ano a
 - Abstract
 - Final
 - Try Catch
+- Hash
+- Map
+- Generics
+- Programação funcional
+- Expressões Lambda
+- Banco de Dados
 - Bônus: GitHub
 
  Observação: Todo conhecimento visto na universidade, foi revisado com um olhar mais técnico atráves do curso na qual recomendo fortemente.
